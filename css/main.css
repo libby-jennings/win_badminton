@@ -1,0 +1,21 @@
+header{
+	background:url("images/libby_dofe_water1708x908.jpg");
+	color:hsla(321, 51%, 40%, 1.0);
+	padding-left:20px;
+}
+body {
+	width:800px;
+	background-color: hsl(321, 59%, 18%);
+	color: hsla(321, 51%, 80%, 1.0);
+}
+article{
+	width:600px;
+}
+article.homepage {
+	width:200px
+}
+article {
+	border:hsla(321, 51%, 48%, 1.0);
+	border-style:dotted;
+}
+
