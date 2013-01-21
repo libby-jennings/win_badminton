@@ -1,13 +1,13 @@
 body {
 				width: 1000px;
-				background-color: #020269;
+				background-color: hsl(240, 96%, 21%);
 				font-family:"Candara", "Lucida Sans", "Sans-serif";
 			}
 			#wrapper {
 				width:800px;
 				height:auto;
 				margin: 0 auto;
-				background-color:#33aa22;
+				background-color: hsl(113, 67%, 40%);
 				text-align:left;
 				float:center;
 			}
@@ -43,7 +43,7 @@ body {
 				float:center;
 				margin-right:5px;
 			}
-			img.aside {
+			img.nav {
 				margin-bottom: 5px;
 				margin-top: 5px;
 			}
@@ -66,7 +66,8 @@ body {
 			}
 			article {
 				width:500px;
-				height:200px;
+				height:auto;
+				color: hsl(113, 67%, 40%);
 				background-color: #fff;
 				float:right;
 				margin-bottom:10px;
@@ -80,9 +81,39 @@ body {
 				color:#fff;
 				text-align: center;				
 			}
+			
+			nav {
+				width:800px;
+				height:100px;
+				text-align: center;								
+			}
+			/* Horizontal nav bar from w3schools.com*/
+			ul.nav {
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				overflow:hidden;
+			}
+			li.nav{
+				float:left
+			}
+			a:link, a:visited {
+				display:block;
+				width:120px
+				em:2;
+				text-align:center;
+				padding:4px;
+				text-decoration:none;
+				text-transform:uppercase;
+			}
+			a:hover, a:active {
+				background-colour:
+			}
+			
 			table, th, td {
 				border:1px solid black;
 				text-align:center;
+				border-collapse:collapse;
 			}
 			li {
 				border-left:3px;
