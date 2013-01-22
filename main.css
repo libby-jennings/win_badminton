@@ -45,13 +45,15 @@ img.nav {
 	margin-top: 5px;
 }
 
-header{
-	height:200px;
+header {
+	height: 200px;
 }
+
 section {
-	width: 270px;
+	background-color: hsl(113, 67%, 40%);
+	width: 800px;
 	background-color: #fff;
-	float:left;
+	float: left;
 }
 
 aside {
@@ -63,6 +65,7 @@ aside {
 	text-align: center;
 	font-size: 18px;
 }
+
 article {
 	width: 500px;
 	height: auto;
@@ -73,6 +76,7 @@ article {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 footer {
 	width: 800px;
 	height: 100px;
@@ -92,6 +96,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	float:left;
 }
 nav ul li {
 	float: left
@@ -99,17 +104,17 @@ nav ul li {
 nav a:link, a:visited {
 	display: block;
 	width: 120px;
-	height:45px;
+	height: 45px;
 	text-align: center;
 	padding: 4px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 nav a:hover, a:active {
-	background-color:hsl(113, 67%, 30%);
-	}
+	background-color: hsl(113, 67%, 30%);
+}
 
-	table, th, td  {
+table, th, td {
 	border: 1px solid black;
 	text-align: center;
 	border-collapse: collapse;
