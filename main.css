@@ -40,7 +40,8 @@ img.footer {
 	float: center;
 	margin-right: 5px;
 }
-img.nav {
+nav img {
+	top:50px;
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
@@ -106,12 +107,19 @@ nav a:link, a:visited {
 	width: 120px;
 	height: 45px;
 	text-align: center;
-	padding: 4px;
+	padding:5px 15px;
+	font-weight: bold;
+	color: #ccc;
+	color: hsla(113, 67%, 100%, 0.7);
+	text-shadow: 0 5px 5px hsla(113, 67%, 0%, .5);
+	transition: all 0.3s ease-in-out;
+	border-radius: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 nav a:hover, a:active {
-	background-color: hsl(113, 67%, 30%);
+	color: #fff;
+	background: hsla(113, 67%, 100%, .15);
 }
 
 table, th, td {
