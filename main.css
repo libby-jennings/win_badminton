@@ -9,8 +9,53 @@ body {
 	margin: 0 auto;
 	background-color: hsl(113, 67%, 40%);
 	text-align: left;
-	float: center;
+	float: none;
 }
+
+
+nav {
+	width: 800px;
+	height: 100px;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+/* Horizontal nav bar from w3schools.com*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float:left;
+}
+nav ul li {
+	float: left
+}
+nav a:link, a:visited {
+	display: block;
+	width: 120px;
+	height: 45px;
+	text-align: center;
+	padding: 10px 0px 0px;
+	font-weight: bold;
+	color: #ccc;
+	color: hsla(113, 67%, 100%, 0.8);
+	text-shadow: 0 2px 2px hsla(113, 67%, 0%, .5);
+	transition: all 0.3s ease-in-out;
+	border-radius: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover, a:active {
+	color: #fff;
+	background: hsla(113, 67%, 100%, .15);
+}
+nav img {
+	padding: 0px 0px 0px 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
 h1 {
 	width: 800px;
 	height: 185px;
@@ -26,7 +71,7 @@ h2 {
 
 img {
 	float: left;
-	height: relative;
+	height: relative
 }
 img.margin {
 	margin-top: 10px;
@@ -39,11 +84,6 @@ img.footer {
 	height: 100px;
 	float: center;
 	margin-right: 5px;
-}
-nav img {
-	top:50px;
-	margin-bottom: 5px;
-	margin-top: 5px;
 }
 
 header {
@@ -58,13 +98,14 @@ section {
 }
 
 aside {
-	width: 270px;
+	width: 250px;
 	float: left;
 	background-color: #FFFFFF;
 	margin-bottom: 10px;
 	margin-right: 10px;
 	text-align: center;
 	font-size: 18px;
+	padding: 5px
 }
 
 article {
@@ -86,41 +127,6 @@ footer {
 	text-align: center;
 }
 
-nav {
-	width: 800px;
-	height: 100px;
-	text-align: center;
-}
-/* Horizontal nav bar from w3schools.com*/
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	float:left;
-}
-nav ul li {
-	float: left
-}
-nav a:link, a:visited {
-	display: block;
-	width: 120px;
-	height: 45px;
-	text-align: center;
-	padding:5px 15px;
-	font-weight: bold;
-	color: #ccc;
-	color: hsla(113, 67%, 100%, 0.7);
-	text-shadow: 0 5px 5px hsla(113, 67%, 0%, .5);
-	transition: all 0.3s ease-in-out;
-	border-radius: 14px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-nav a:hover, a:active {
-	color: #fff;
-	background: hsla(113, 67%, 100%, .15);
-}
 
 table, th, td {
 	border: 1px solid black;
