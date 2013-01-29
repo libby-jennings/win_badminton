@@ -2,21 +2,23 @@ body {
 	width: 1000px;
 	background-color: hsl(240, 96%, 21%);
 	font-family: "Candara", "Lucida Sans", "Sans-serif";
+	font-size: 100%;
 }
 
 h1 {
 	float: center;
 	text-align: center;
+	color: #000;
+	font-size: 2em;
 }
+
 h2 {
 	text-align: center;
-	font-size: 20px;
 	color: #000;
 }
 
 img {
 	float: left;
-	height: relative
 }
 img.margin {
 	margin-top: 10px;
@@ -70,18 +72,22 @@ nav {
 }
 /* Horizontal nav bar from w3schools.com*/
 nav ul {
-	list-style-type: none;
+	float:left;
 	padding-top: 10;
 	overflow: hidden;
 	text-align: left;
 }
 nav ul li {
-	float: left
+	float: left;
+	 display: block;
+	vertical-align: middle;
+	border: 1px;
+
 }
 nav a:link, a:visited {
 	display: block;
-	width: 120px;
-	height: 45px;
+	width: 80px;
+	height: 60px;
 	text-align: center;
 	font-weight: bold;
 	color: #ccc;
@@ -98,7 +104,7 @@ nav a:hover, a:active {
 }
 nav img {
 	height: 90;
-	 float:left;
+	float: left;
 }
 
 section {
@@ -125,8 +131,8 @@ aside {
 	background-color: #FFFFFF;
 	margin-bottom: 10px;
 	margin-right: 10px;
-	text-align: center;
-	font-size: 18px;
+	font-size: 0.825em;
+	text-align: left;
 	padding: 5px
 }
 
@@ -148,11 +154,11 @@ footer img {
 	height: 90px;
 	float: center;
 	margin: 5px;
-	}
+}
 
 .imagebox {
 	position: relative;
-    -moz-transition: all 0.3s ease-in;  /* FF4+ */
+	-moz-transition: all 0.3s ease-in; /* FF4+ */
 	transition: all 0.3s ease-in-out;
 	border-radius: 14px;
 	float: left;
@@ -167,7 +173,7 @@ footer img {
 	background: hsla(240,96%,11%, 0.7);
 	color: hsl(240, 96%, 900%);
 	text-align: center;
-    -moz-transition: all 0.3s ease-in;  /* FF4+ */
+	-moz-transition: all 0.3s ease-in; /* FF4+ */
 	transition: all 0.3s ease-in-out;
 	border-radius: 14px;
 }
