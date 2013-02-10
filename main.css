@@ -57,8 +57,8 @@ header h1 {
 
 nav {
 	width: 790px;
-	height: 100px;
-	margin: 10px 0px 0px 0px;
+	height: 80px;
+	margin-bottom:15px;
 	padding: 5px 5px 5px 5px;
 	background-color: hsl(113, 67%, 40%);
 	float: center;
@@ -66,7 +66,7 @@ nav {
 }
 /* Horizontal nav bar from w3schools.com*/
 nav ul {
-	margin-left: 0px;
+	margin-top: 9px;
 	padding-left: 85px;
 	float:left;
 	padding-top: 10;
