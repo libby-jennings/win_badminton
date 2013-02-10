@@ -61,21 +61,21 @@ nav {
 	margin: 10px 0px 0px 0px;
 	padding: 5px 5px 5px 5px;
 	background-color: hsl(113, 67%, 40%);
-	float: left;
+	float: center;
 
 }
 /* Horizontal nav bar from w3schools.com*/
 nav ul {
 	margin-left: 0px;
-	padding-left: 0px;
+	padding-left: 85px;
 	float:left;
 	padding-top: 10;
 	overflow: hidden;
 	text-align: left;
 }
 nav ul li {
-	float: left;
-	margin-left:5px;
+	float:left;
+	margin-left:10px;
 	 display: block;
 	vertical-align: middle;
 
@@ -83,7 +83,7 @@ nav ul li {
 
 nav a:link, a:visited {
 	display: block;
-	width: 80px;
+	width: 90px;
 	height: 60px;
 	text-align: center;
 	font-weight: bold;
@@ -95,7 +95,7 @@ nav a:link, a:visited {
 	text-decoration: none;
 	text-transform: uppercase;
 	border: 1px solid 	hsl(113, 67%, 35%);
-black;
+
 }
 nav a:hover, a:active {
 	color: #fff;
