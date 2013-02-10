@@ -112,7 +112,9 @@ section {
 	background-color: #fff;
 	float: left;
 }
-
+section.biog{
+	border-bottom:1px solid  hsl(113, 67%, 40%);
+}
 
 article {
 	width: 500px;
@@ -182,3 +184,4 @@ footer img {
 	opacity: 1;
 	transition: all 0.3s ease-in-out;
 }
+
