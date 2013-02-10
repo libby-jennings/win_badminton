@@ -138,6 +138,9 @@ aside {
 	text-align: left;
 	padding: 5px
 }
+aside.caption {
+	text-align:center;
+}
 
 aside img {
 	width: 230px;
