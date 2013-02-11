@@ -126,7 +126,16 @@ article {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
+article.footer {
+	margin-left:150px;
+	margin-right: 150px;
+	float:center;
+	background-color: hsl(113, 67%, 40%);
+	padding: 0px;
+	margin-bottom:0 0px;
+	height: 100px;
+	
+}
 
 aside {
 	width: 250px;
