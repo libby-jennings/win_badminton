@@ -72,6 +72,7 @@ nav ul {
 	padding-top: 10;
 	overflow: hidden;
 	text-align: left;
+	font-size:100%;
 }
 nav ul li {
 	float:left;
