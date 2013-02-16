@@ -34,7 +34,7 @@ li {
 	width: 800px;
 	height: auto;
 	margin: 0 auto;
-	background-color: hsl(113, 67%, 40%);
+	background-color: hsl(113, 67%, 32%);
 	text-align: left;
 	float: none;
 }
@@ -47,8 +47,8 @@ header img {
 	height: 185px;
 	padding: 0px;
 	margin-top: 0px;
+	float:left;
 }
-
 header h1 {
 	padding: 20px 0 0 0;
 	text-align: centre;
@@ -60,7 +60,7 @@ nav {
 	height: 80px;
 	margin-bottom:15px;
 	padding: 5px 5px 5px 5px;
-	background-color: hsl(113, 67%, 40%);
+	background-color: hsl(113, 67%, 32%);
 	float: center;
 
 }
@@ -120,7 +120,7 @@ section.biog{
 article {
 	width: 500px;
 	height: auto;
-	color: hsl(113, 67%, 30%);
+	color: hsl(113, 67%, 26%);
 	background-color: #fff;
 	float: right;
 	margin-bottom: 10px;
@@ -131,11 +131,15 @@ article.footer {
 	margin-left:150px;
 	margin-right: 150px;
 	float:center;
-	background-color: hsl(113, 67%, 40%);
+	background-color: hsl(113, 67%, 32%);
 	padding: 0px;
 	margin-bottom:0 0px;
 	height: 100px;
-	
+}
+article.header {
+	width:800px;
+	height:100px;
+	background-color: #fff
 }
 
 aside {
@@ -162,7 +166,7 @@ footer {
 	width: 800px;
 	height: 100px;
 	float: left;
-	background-color: hsl(113, 67%, 40%);
+	background-color: hsl(113, 67%, 32%);
 	color: #fff;
 	text-align: center;
 }
