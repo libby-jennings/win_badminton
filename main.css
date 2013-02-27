@@ -185,7 +185,7 @@ footer img {
 }
 .text {
 	transition: all 0.3s ease-in-out;
-	opacity: 0;
+	opacity: 1;
 	position: absolute;
 	left: 10px;
 	bottom: 20px;
