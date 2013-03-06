@@ -102,6 +102,7 @@ nav a:hover, a:active {
 	color: #fff;
 	background: hsla(113, 67%, 100%, .15);
 }
+
 nav img {
 	height: 90;
 	float: left;
@@ -116,6 +117,11 @@ section {
 section.biog{
 	border-bottom:1px solid  hsl(113, 67%, 40%);
 }
+
+section a:link, {color: blue}
+section a:visited {color: purple}
+section a:hover  {color: blue}
+section a:active {color: blue}
 
 article {
 	width: 500px;
